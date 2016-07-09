@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2C3E50;
+  color: #4d4d4d;
+}
+
+h1 {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 4%;
+  font-family: "Inconsolata";
+  font-weight: bold;
+  color: #4d4d4d;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#wrapper {
+  border-radius: 5px;
+  max-width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 3%;
+  background-color: #FFFFFF;
+}
+
+#content {
+  min-height: 80px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  font-family: "Inconsolata";
+}
+
+#doIt {
+  height: 40px;
+  width: 90px;
+  margin-right: 25%;
+  float: right;
+  margin-top: 15px;
+  border-radius: 10px;
+  font-family: "Inconsolata";
+  font-weight: bold;
+  font-size: 1em;
+}
+
+#tweet {
+  line-height: 28px;
+  margin-top: 22px;
+  margin-right: 16px;
+  float: right;
+  font-size: 3.2em;
+  color: #36D8FF;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+#tweet:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#innerContent {
+  min-height: 30px;
+  width: 100%;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  font-family: "Inconsolata";
+  font-size: 1.2em;
+}
+
+#contact {
+  margin-top: 60px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: inline-block;
+  text-align: center;
+}
+
+#contact h3 {
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: "Inconsolata";
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 15px;
+}
+
+#github {
+  background-color: #cccccc;
+}
+
+#github:hover {
+  background-color: #b3b3b3;
+}
+
+.btn:focus {
+  outline: 0 !important;
+}
